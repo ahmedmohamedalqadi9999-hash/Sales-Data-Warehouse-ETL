@@ -14,7 +14,8 @@ This project demonstrates a complete **Data Engineering end-to-end solution**. T
 The system is designed using a Star Schema to optimize query performance for BI and reporting.
 
 ### 🖼️ Schema Diagram
-![Star Schema Diagram](images/Untitled%20Diagram.png)
+<img width="1920" height="1080" alt="Screenshot (199)" src="https://github.com/user-attachments/assets/f39d1402-6e85-4267-95ee-c9757620de55" />
+
 
 ### 🔹 Tables Structure:
 * **Fact Table:** `fact_sales` (Contains metrics like Quantity, Unit Price, Total Price, and Foreign Keys).
@@ -28,7 +29,8 @@ The system is designed using a Star Schema to optimize query performance for BI 
 The pipeline handles the data lifecycle in three main stages:
 
 ### 🖼️ Pipeline Design
-![ETL Pipeline](images/Screenshot%20(196).png)
+<img width="1920" height="1080" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/323d7a60-83fc-4fd7-a288-432b84938d38" />
+
 
 1.  **Extract:** Connecting to the source SQL Server and fetching raw sales data using `pyodbc`.
 2.  **Transform:**
